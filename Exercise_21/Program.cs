@@ -5,7 +5,6 @@
 
 Console.Clear();
 
-
 int GetCoord(string number)
 {
 	int result = 0;
@@ -42,19 +41,3 @@ int Bz = GetCoord("Введите координаты точки B по оси 
 double dist = GetDist(Ax, Ay, Az, Bx, By, Bz);
 
 Console.WriteLine($"Расстояние между точками А и В = {dist}");
-
-
-
-// Console.Write("Введите координаты точки A по оси x1: ");
-// double x1 = Convert.ToDouble(Console.ReadLine());
-// Console.Write("Введите координаты точки A по оси y1: ");
-// double y1 = Convert.ToDouble(Console.ReadLine());
-// Console.Write("Введите координаты точки A по оси z1: ");
-// double z1 = Convert.ToDouble(Console.ReadLine());
-
-// Console.Write("Введите координаты точки B по оси x2: ");
-// double x2 = Convert.ToDouble(Console.ReadLine());
-// Console.Write("Введите координаты точки B по оси y2: ");
-// double y2 = Convert.ToDouble(Console.ReadLine());
-// Console.Write("Введите координаты точки B по оси z2: ");
-// double z2 = Convert.ToDouble(Console.ReadLine());

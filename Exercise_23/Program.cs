@@ -5,8 +5,6 @@
 
 Console.Clear();
 
-// Console.WriteLine("Введите число: ");
-
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 Console.WriteLine($"Таблица кубов числа {number}: ");
